@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://openlayers.org/en/v6.15.1/build/ol.js"></script>
+    <style>
+
+        .body {margin: 0;
+             font-family: Arial, sans-serif;
+             background: url('https://colegiodecoroneles.com/wp-content/uploads/2021/01/seguridad-en.jpg') no-repeat center center fixed;
+            }
+
+        #contenido {
+            margin: 3%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+     
+      
+    </style>
+
+    
+
+
+</head>
+<body>
+
+    <%- include('./header') %>
+<div id="contenido">
+
+    <!-- Primer contenedor -->
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <img src="img/DelitosImpacto.png" class="card-img-top" alt="Imagen Mapa01">
+            <h5 class="card-title">Mapa de los delitos de alto impacto en Bogotá</h5>
+            <p class="card-text">Mapa de los delitos de alto impacto</p>
+            <a href="/map1" class="btn btn-primary">Mapa01</a>
+        </div>
+    </div>
+
+    <!-- Segundo contenedor -->
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <img src="img/PoliciasBomberos.jpg" class="card-img-top" alt="Imagen Mapa01">
+            <h5 class="card-title">Mapa de las principales estaciones de polícia en Bogotá</h5>
+            <p class="card-text">Mapa de Policías y Bomberos</p>
+            <a href="/map2" class="btn btn-primary">Mapa02</a>
+        </div>
+    </div>
+
+    <!-- Tercer contenedor -->
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <img src="img/CentrosAtencion.jpg" class="card-img-top" alt="Imagen Mapa01">
+            <h5 class="card-title">Mapa de los centros de atención de Bogotá contra los delitos</h5>
+            <p class="card-text">Centros de atención en el país</p>
+            <a href="/map3" class="btn btn-primary">Mapa03</a>
+        </div>
+    </div>
+
+</div>
+
+    <p></p>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+crossorigin="anonymous"></script>
+</html>
